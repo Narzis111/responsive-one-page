@@ -430,20 +430,15 @@
     font-size: 100px;
     position: absolute;
     top: 119px;
-    left: 185px;
+    left: 195px;
 }
 
-.euro-2 {
+.euro-2, .euro-3 {
     position: absolute;
     top: 119px;
-    left: 173px;
+    left: 208px;
 }
 
-.euro-3 {
-    position: absolute;
-    top: 119px;
-    left: 173px;
-}
 
 .month {
     display: inline-block;
