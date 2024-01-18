@@ -1,0 +1,663 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar-brand {
+    color: #16507b;
+    font-size: 28px;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-nav li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    color: #16507b;
+}
+
+.navbar {
+    border-bottom: 1px solid #d5e7f4;
+}
+
+/* ===================navbar completed======================= */
+.banner-image {
+    height: 850px;
+    background-image: url(../image/istockphoto-1042172358-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.banner h1 {
+    font-size: 56px;
+    font-weight: 700;
+    color: #124265;
+    font-family: "Poppins", sans-serif;
+    padding-top: 80px;
+}
+
+.banner p {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    color: #5e5e5e;
+    margin: 10px 0 0 0;
+}
+
+.banner button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 14px 50px;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: #fff;
+    background: #0d6efd;
+    margin-bottom: 100px;
+}
+
+/* ===================banner heading text completed======================= */
+
+.banner .container .row .banner-box {
+    box-shadow: 0 0 29px 0 rgb(18 66 101 / 8%);
+    padding: 50px 30px;
+    border-radius: 10px;
+
+}
+
+.banner .container .col-lg-3 i {
+    font-size: 36px;
+    color: #2487ce;
+    padding-bottom: 15px;
+}
+
+.banner .container .col-lg-3 h5 {
+    color: #124265;
+    font-weight: 400px;
+}
+
+.banner .container .col-lg-3 p {
+    font-size: 15px;
+    line-height: 28px;
+}
+
+/* ===================banner box section completed======================= */
+
+.about-head h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #124265;
+}
+
+.about-head p {
+    color: #919191;
+}
+
+.col-lg-6 p i {
+    color: blue;
+}
+
+.about .container .btn-learn-more {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 5px;
+    color: #2487ce;
+    margin-top: 6px;
+    border: 2px solid #2487ce;
+}
+
+.about .container .btn-learn-more:hover {
+
+    color: white;
+    background-color: #2487ce;
+    ;
+
+}
+
+/* =================about complete=================== */
+
+.year-box {
+    background-color: #f8fbfe;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.year-box .container .col-lg-3 {
+    box-shadow: none;
+}
+
+.year-box .container .col-lg-3 h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #124265;
+}
+
+.year-box .container .col-lg-3 p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #1e6ca6;
+}
+
+/* ===============year-box completed============ */
+.video {
+    margin-top: 80px;
+}
+
+.vid-img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.video .col-lg-6 h3 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #124265;
+}
+
+.video p i {
+    font-size: 20px;
+    color: #2487ce;
+}
+
+/* ===============video completed=========== */
+.client-box .row img {
+    max-width: 45%;
+    display: inline-block;
+    padding: 15px 0;
+    filter: grayscale(100);
+
+}
+
+.client-box {
+    margin-top: 50px;
+    background-color: #f8fbfe;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+/* ============client completed============= */
+.testimonial {
+    margin-top: 50px;
+}
+
+.testimonial-head,
+.testimonial-footer {
+    text-align: center;
+}
+
+.testimonial .container p i {
+    color: #c9e3f5;
+    font-size: 26px;
+}
+
+.testimonial .col-lg-4 img {
+    width: 90px;
+    border-radius: 50%;
+
+}
+
+.testimonial .col-lg-4 p {
+    font-style: italic;
+    margin: 0 15px 15px 15px;
+    padding: 20px;
+    background: #f3f9fd;
+    margin-bottom: 35px;
+    border-radius: 6px;
+}
+
+.testimonial .container h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #111;
+}
+
+.testimonial .container h6 {
+    font-size: 14px;
+    color: #999;
+
+}
+
+/* =============testimonial completed================== */
+.service {
+    margin-top: 50px;
+    background-color: #f8fbfe;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.service-head {
+    text-align: center;
+
+}
+
+.service .col-lg-4 a {
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #124265;
+}
+
+.service .serv-box {
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    background-color: white;
+    text-align: center;
+    padding: 50px 10px;
+}
+
+.service .container h4 {
+    color: #124265;
+}
+
+.icon1 i,
+.icon2 i,
+.icon3 i,
+.icon4 i,
+.icon5 i,
+.icon6 i {
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.icon1 i {
+    color: #47aeff;
+
+}
+
+.icon2 i {
+    color: #ffa76e;
+
+}
+
+.icon3 i {
+    color: #e80368;
+
+}
+
+.icon4 i {
+    color: #f4db4b;
+
+}
+
+.icon5 i {
+    color: #f31f1f;
+
+}
+
+.icon6 i {
+    color: #1aeddf;
+
+}
+
+
+/* ==========portfolio starts================== */
+.portfolio {
+    margin-top: 80px;
+}
+
+.portfolio .container .row .img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.portfolio-head h6 a {
+    margin-right: 20px;
+    color: #124265;
+    text-decoration: none;
+}
+
+
+
+.service2 {
+    background-color: #2487ce;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.service2 .service2body {
+    text-align: center;
+}
+
+.service2 .container .btn-action {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 12px 37px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 6px;
+    border: 2px solid white;
+}
+
+.service2 .container .btn-action:hover {
+    color: #2487ce;
+    background-color: white;
+}
+
+/* ==============team start=============== */
+.team .container .row img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.team {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    background-color: #f8fbfe;
+    padding-top: 50px;
+    padding-bottom: 80px;
+
+}
+
+.team .container .col-lg-3 .team-footer {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: white;
+}
+
+.team .container .col-lg-3 .team-footer h4 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #124265;
+}
+
+.team-footer h6 {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+
+/* =============team complete and pricing start================== */
+
+.pricing .container .btn-buy {
+    color: #2487ce;
+    border: 2px solid #2487ce;
+    padding: 5px 25px;
+}
+
+.pricing .container .btn-buy:hover {
+    color: white;
+    background-color: #2487ce;
+}
+
+.pricing .container .btn-buys {
+    color: white;
+    border: 2px solid white;
+    padding: 5px 25px;
+    margin-bottom: -16px;
+}
+
+.pricing .container .btn-buys:hover {
+    color: #2487ce;
+    background-color: white;
+}
+
+.pricing .container .price-box,
+.pricing .container .price-box-special {
+    padding: 50px 0px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.euro {
+    display: inline-block;
+    font-size: 100px;
+    position: absolute;
+    top: 119px;
+    left: 185px;
+}
+
+.euro-2 {
+    position: absolute;
+    top: 119px;
+    left: 173px;
+}
+
+.euro-3 {
+    position: absolute;
+    top: 119px;
+    left: 173px;
+}
+
+.month {
+    display: inline-block;
+    color: gray;
+    position: absolute;
+    top: 128px;
+    left: 218px;
+}
+
+.month-2 {
+
+    position: absolute;
+    top: 132px;
+    left: 228px;
+}
+
+.month-3 {
+    color: gray;
+    position: absolute;
+    top: 132px;
+    left: 228px;
+
+}
+
+.price-box-special {
+
+    position: relative;
+    border-radius: 8px;
+}
+
+.pricing .container h5 {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.special h1 {
+    font-size: 42px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.p-special {
+    text-decoration: line-through;
+}
+
+/* ===============pricing complete=============== */
+.question {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: #f8fbfe;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.question .container icon-help {
+    background-color: white;
+}
+
+.question .container i {
+    font-size: 20px;
+    font-weight: 700;
+    color: #87c1ea;
+}
+
+.question .container button {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 30px;
+    color: #124265;
+    background-color: #fff;
+}
+
+/* -------------Question complete----------------- */
+
+.info i {
+    font-size: 20px;
+    color: #2487ce;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #e3f0fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.address:hover i,
+.email:hover i,
+.phone:hover i {
+    color: white;
+    background: #2487ce;
+
+}
+
+.contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #124265;
+}
+
+.contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #217bbc;
+}
+
+.btn-send {
+    background: #2487ce;
+    padding: 10px 30px;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.btn-send:hover {
+    background: #fff;
+    padding: 10px 30px;
+    color: #2487ce;
+    border: 2px solid #2487ce;
+
+}
+
+
+/* ========contact completed========== */
+
+
+
+footer {
+    color: #444444;
+    font-size: 14px;
+    margin-top: 80px;
+    background: #f8fbfe;
+    box-shadow: 0px 2px 15px rgb(18 66 101 / 8%);
+}
+
+footer .footer-top {
+    padding: 60px 0 30px 0;
+    background: #fff;
+}
+
+.social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #2487ce;
+    color: #fff;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 5px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+
+}
+
+footer .footer-top h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #124265;
+    padding-bottom: 12px;
+}
+
+footer .footer-top .footer-contact h3 {
+    font-size: 26px;
+    margin: 0 0 10px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 300;
+}
+
+footer .container ul li a {
+    text-decoration: none;
+}
+
+footer .footer-top .footer-links ul a {
+    color: #777777;
+
+}
+
+
+footer .list-unstyled {
+    line-height: 2;
+}
+
+.footer-form {
+    max-width: 300px;
+    display: flex;
+}
+
+.footer-form-control {
+    flex-basis: 60%;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #fff;
+    text-decoration: none;
+    border: 2px solid #2487ce;
+}
+
+.btn-footer {
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px 2px 20px;
+    background: #2487ce;
+    color: #fff;
+    margin-right: 20px;
+
+}

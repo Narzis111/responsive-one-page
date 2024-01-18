@@ -1,0 +1,97 @@
+@media(max-width: 1200px){
+
+}
+/*..................Dextop view...........*/
+
+@media(max-width: 992px){
+
+}
+/*..................laptop view...........*/
+
+@media(max-width: 768px){
+    
+    .banner h1 {
+        font-size: 40px;
+    }
+    .about {
+        margin-top: 730px;
+    } 
+    .vid-text{
+        margin-top: 16px;
+    }
+    .euro {
+        top: 113px;
+        left: 233px;
+    }
+    .month {
+        top: 119px;
+        left: 268px;
+    }
+    .euro-2 {
+        top: 119px;
+        left: 220px;
+    }
+    .month-2 {
+        top: 132px;
+        left: 279px;
+    }
+    .euro-3 {
+        top: 113px;
+        left: 225px;
+    }
+    .month-3 {
+        top: 122px;
+        left: 278px;
+    }
+}
+
+/*.........======================.........Tablet view.....====================......*/
+
+
+
+@media(max-width: 576px){
+
+.banner h1 {
+    font-size: 31px;
+}
+.about {
+    margin-top: 689px;
+} 
+.vid-text{
+    margin-top: 16px;
+}   
+    
+.month {
+    top: 120px;
+    left: 192px;
+}
+.euro {
+    top: 113px;
+    left: 158px;
+}
+.euro-2 {
+    top: 118px;
+    left: 146px;
+}
+
+.euro-3 {
+    top: 114px;
+    left: 149px;
+}
+.month-2 {
+    top: 132px;
+    left: 204px;
+}
+.month-3 {
+    top: 121px;
+    left: 199px;
+}
+
+
+}
+
+/*.........======================.........mobile view.....====================......*/
+
+
+
+
